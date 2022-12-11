@@ -1,11 +1,10 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-import project1 from "../assets/images/project-1.png";
-import project2 from "../assets/images/project-2.jpg";
-import project3 from "../assets/images/project-3.jpg";
-import project4 from "../assets/images/project-4.jpg";
-import project5 from "../assets/images/project-5.png";
-import project_person from "../assets/images/project_person1.png";
+import project1 from "../assets/images/phot.jpg";
+import project2 from "../assets/images/screencapture-used-products-resale-c34e1-web-app-2022-12-11-10_24_35.png";
+import project3 from "../assets/images/screencapture-elarning-courses-web-app-2022-12-11-10_25_17.png";
+import project4 from "../assets/images/screencapture-precious-croquembouche-a927df-netlify-app-2022-12-11-10_25_54.png";
+import project5 from "../assets/images/screencapture-benevolent-mandazi-2e3dc2-netlify-app-2022-12-11-10_26_29.png";
 import "swiper/css";
 import "swiper/css/pagination";
 import { Pagination, Autoplay } from "swiper";
@@ -54,13 +53,13 @@ const Project = () => {
       </div>
       <br />
       <div className=" max-w-6xl gap-6 px-5 mx-auto">
-        <div className="lg:w-2/3 w-full">
+        <div className=" w-full">
           <Swiper
             slidesPerview={1.2}
             spaceBetween={20}
             breakpoints={{
               768: {
-                slidesPerView: 2,
+                slidesPerView: 3,
               },
             }}
             loop={true}
@@ -75,7 +74,7 @@ const Project = () => {
             {projects.map((project_info, i) => (
               <SwiperSlide key={i}>
                 <div className="h-fit w-full p-4 bg-slate-700 rounded-xl">
-                  <img src={project_info.img} alt="" className="rounded-lg" />
+                  <img src={project_info.img} alt="" className="rounded-lg h-[300px] w-full" />
                   <h3 className="text-xl my-4">{project_info.name}</h3>
                   <div className="flex gap-3">
                     <a
@@ -92,6 +91,7 @@ const Project = () => {
                     >
                       Live Demo
                     </a>
+                    <button onClick={``} className="text-cyan-600 bg-gray-800 px-2 py-1 inline-block">Details</button>
                   </div>
                 </div>
               </SwiperSlide>

@@ -14,11 +14,8 @@ const Hireme = () => {
           <h2 className="text-2xl font-semibold">
             Do you want any work from me?
           </h2>
-          <p className="lg:text-left text-justify max-w-lg text-sm mt-4 text-gray-200 leading-6">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis dicta
-            soluta quos tempore eos accusamus cupiditate, amet in similique
-            sapiente obcaecati odio deleniti architecto corporis ratione.
-            Consequatur a quidem maiores!
+          <p className="lg:text-left text-justify  text-sm mt-4 text-gray-200 leading-6">
+            I am a Full Stack Developer.I love coding.I am good at front end back end.If want a developer please feel free to knock me.I will response as soon as possible
           </p>
           <button className="btn-primary mt-10">Say Hello</button>
         </div>

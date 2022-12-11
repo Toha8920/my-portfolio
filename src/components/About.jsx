@@ -17,7 +17,7 @@ const About = () => {
         <div className="p-2">
           <div className="text-gray-300 my-3 ">
             <p className="text-justify leading-7 w-11/12 mx-auto">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro impedit enim dolor accusantium natus blanditiis atque incidunt laborum officiis reiciendis deserunt fuga saepe mollitia repellat obcaecati praesentium eum nam et accusamus dolorem, perferendis architecto voluptates ea! Quod sint quos molestias obcaecati laboriosam tempore est voluptates blanditiis! Cum sapiente impedit a.
+              Hi I am Toha.I am a Full Stack Developer.I love combining the worlds of logic and creative design to make eye-catching,accessible and user friendly websites and applications.I'm excited to make the leap and continue refining my skills with the right company.
             </p>
             <div className="flex mt-10 items-center gap-7">
               {
@@ -31,7 +31,7 @@ const About = () => {
             </div>
             <br />
             <br />
-            <a href="./src/assets/My Resume.pdf" download>
+            <a href="./src/assets/Resume.pdf" download>
               <button className="btn-primary">
                 Download Resume
               </button>
